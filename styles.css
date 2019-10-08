@@ -1,0 +1,95 @@
+.grid {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-column-gap: 3em;
+    padding: 50px;
+}
+.side-bar{
+    background-color: rgb(123, 173, 30);
+    padding: 10px;
+}
+.fas{
+    font-size: 20px;
+    color: red;
+}
+.name {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(151, 212, 52, 0.829);
+    flex-direction: column;
+}
+.fa{
+    padding: 10px;
+    font-size: 15px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-face {
+    background: #3B5998;
+    color: white;
+}
+.fa-twit {
+    background: #55ACEE;
+    color: white;
+}
+.fa-insta {
+    background: #bd1a66;
+    color: white;
+}
+hr{
+    border: 1px solid rgb(66, 107, 28);
+}
+h1 {
+    flex:1;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    border: 3px rgb(252, 251, 251) solid;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+img {
+    border-radius: 100%;
+    max-width: 300px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+ font-family: Segoe UI;
+ font-size: 13px;
+}
+.year{
+    float: left;
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+
+}
+.job{
+    clear: right;
+    text-align: left;
+}
+.work p{
+    float: right;
+    text-align: center;
+}
+ul {
+    font-size: 15px;
+    font-family: Segoe UI;
+}
